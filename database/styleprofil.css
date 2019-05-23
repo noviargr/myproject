@@ -1,0 +1,18 @@
+html {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 16px 28px;
+}
+body {
+    background: #E9EBEE;
+    padding: 0;
+    margin: 0;
+}
+.layout {
+    width: 100%;
+    background: #4267b2;
+}
+.header img {
+    width: 13%;
+    padding: 2%;
+    margin-left: 9%;
+}

@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin:0;
+}
+
+body {
+	background-color: #E9EBEE;
+}
+.navbar {
+	background-color: #4267B2;
+	width: 100%;
+	position: fixed;
+}
+.navbar img{
+	width: 9%;
+	padding: 0.8%;
+	float: left;
+}
+.navbar .profil{
+	float: left;
+	font-weight: bold;
+	margin: 2%;
+}
+.navbar .profil a {
+	text-decoration: none;
+	color: white;
+}
+.navbar .profil a:hover {
+	text-decoration: underline;
+}
+.navbar .logout {
+	display: inline-block;
+	font-weight: bold;
+	margin: 2%;
+}
+.navbar .logout a {
+	text-decoration: none;
+	color: white;
+}
+.navbar .logout a:hover {
+	text-decoration: underline;
+}
+.navbar input {
+	margin-top: 25px;
+	width: 60%;
+	margin-left: 40px;
+	display: inline-block;
+	float: left;
+	margin-right: 8%;
+}
+.navbar input[type=text] {
+	padding: 5px;
+}
+.container {
+	width: 60%;
+	background-color: white;
+	margin: auto;
+	padding: 30px;
+	padding-top: 40px;
+}
+.posting textarea {
+	resize: none;
+	border: 3px solid #cccccc;
+	display: block;
+}
+.posting .header {
+	background-color: #F5F6F7;
+	padding: 8px;
+	color: #4B4F56;
+}
+
+.posting {
+	padding-top: 30px;
+}
+
+.container .beranda {
+	margin: 50px auto;
+	background-color: #E9EBEE;
+	width: 100%;
+	color: #4A4A4A;
+	text-align: center;
+	border-radius: 5px;
+	padding: 4px;
+}
+.status {
+	margin-top: 25px;
+}
+.status .header img{
+	float: left;
+	margin-right: 5px;	
+}
+
+.status .header p.nama {
+	padding-top: 7px;
+}
+
+.status .header .tgl:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: left;
+}
+
+.komentar img {
+	float: left;
+}
+
+.komentar p{
+	display: inline-block;
+	background-color: #F2F3F5;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+}
+
+.status .header p.tgl {
+	color: #B1B4B8;
+	font-size: 13px;
+}
+
+.status .tombolKomen {
+	margin :20px auto;
+	cursor: pointer;
+	color: #606770;
+	padding: 10px;
+}
+
+.status .tombolKomen .komentar,
+.status .tombolKomen .hapus {
+		padding: 5px;
+}
+
+.status .tombolKomen .komentar:hover,
+.status .tombolKomen .hapus:hover
+ {
+		background-color: #F2F3F5;
+}
+
+
+.komentar p:after {
+	content: '.';
+	display: block;
+	visibility: hidden;
+	clear: left;
+}
+
+.tulisKomen input {
+	background-color: #F2F3F5;
+	padding: 5px;
+	width: 60%;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.tulisKomen button {
+	padding: 5px;
+}
